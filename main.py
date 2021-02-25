@@ -28,7 +28,11 @@ yesterday_data = data_list[0]
 print(yesterday_data)
 yesterday_closing_price = yesterday_data["4. close"]
 print(yesterday_closing_price)
-# TODO 2. - Get the day before yesterday's closing stock price
+
+# 2. - Get the day before yesterday's closing stock price
+day_before_yesterday_data = data_list[1]
+day_before_yesterday_data_closing_price = day_before_yesterday_data["4. close"]
+print(day_before_yesterday_data_closing_price)
 
 # TODO 3. - Find the positive difference between 1 and 2. e.g. 40 - 20 = -20, but the positive difference is 20. Hint: https://www.w3schools.com/python/ref_func_abs.asp
 
