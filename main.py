@@ -34,7 +34,9 @@ day_before_yesterday_data = data_list[1]
 day_before_yesterday_data_closing_price = day_before_yesterday_data["4. close"]
 print(day_before_yesterday_data_closing_price)
 
-# TODO 3. - Find the positive difference between 1 and 2. e.g. 40 - 20 = -20, but the positive difference is 20. Hint: https://www.w3schools.com/python/ref_func_abs.asp
+# 3. - Find the positive difference between 1 and 2. e.g. 40 - 20 = -20, but the positive difference is 20. Hint: https://www.w3schools.com/python/ref_func_abs.asp
+positive_difference = abs(float(yesterday_closing_price) - float(day_before_yesterday_data_closing_price))
+print(positive_difference)
 
 # TODO 4. - Work out the percentage difference in price between closing price yesterday and closing price the day before yesterday.
 
