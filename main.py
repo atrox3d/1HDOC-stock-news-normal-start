@@ -1,4 +1,5 @@
-from myob import myob
+import myob
+import requests
 
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
