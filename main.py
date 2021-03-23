@@ -1,6 +1,10 @@
-import myob
 import requests
 import json
+# import myob
+import util.parentimport
+util.parentimport.add_parent_import()
+from _myob.stock_news_normal_start import myob
+
 
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
